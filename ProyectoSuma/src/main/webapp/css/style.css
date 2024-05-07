@@ -1,0 +1,33 @@
+
+/*** La hoja estilo del proyecto**/
+body{
+    background-color: cadetblue;
+}
+.texto-centrado{
+    text-align: center;
+}
+.margen-top-100{
+    margin-top: 100px;
+}
+input{
+    padding: 15px;
+}
+.material-symbols-outlined{
+    font-size: 50px;
+    color: red;
+}
+.header{
+    height: 50px;
+}
+.color-red{
+    background-color: #0077ff;
+}
+.caja-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nombre-aplicacion {
+    color: yellow; /* Cambia 'blue' al color que desees */
+}
+
