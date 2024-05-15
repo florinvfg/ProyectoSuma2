@@ -1,33 +1,75 @@
-
-/*** La hoja estilo del proyecto**/
+/**
+Hoja de estilo del proyecto
+ */
 body{
-    background-color: cadetblue;
+    background-color: #4684e7;
+    height: 100vh;
 }
 .texto-centrado{
     text-align: center;
 }
 .margen-top-100{
-    margin-top: 100px;
+    margin-top:100px;
 }
+
 input{
     padding: 15px;
 }
-.material-symbols-outlined{
-    font-size: 50px;
-    color: red;
+.material-symbols-rounded {
+    font-size: 45px;
+    color: #631b80;
 }
 .header{
     height: 50px;
 }
-.color-red{
-    background-color: #0077ff;
+.color-naranja{
+    background-color: #48128a;
 }
+.color-amarillo{
+    color: #4684e7;
+}
+
 .caja-flex{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
 }
-.nombre-aplicacion {
-    color: yellow; /* Cambia 'blue' al color que desees */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: right;
+}
+
+.unbounded{
+                font-family: "Unbounded", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+            }
+
+.correcta{
+    color: green;
+}
+.incorrecta{
+    color:red;
+}
+.correcta,.incorrecta{
+    font-size: 50px;
+    margin: -100px;
+}
+.boton{
+    border:none;
+
+}
+.boton:hover{
+    cursor: pointer;
+}
+
+/* Estilo cuando para ocultar el boton radio */
+input[type="radio"] {
+    /* Estilo que deseas aplicar cuando el radio está marcado */
+   display: none;
 }
 
